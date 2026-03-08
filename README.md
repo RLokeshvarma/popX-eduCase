@@ -63,4 +63,4 @@ Used to display the **camera icon on the profile avatar**.
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/popx-react-assignment.git
+git clone https://github.com/yourusername/popX-eduCase.git
