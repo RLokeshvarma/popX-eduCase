@@ -7,7 +7,7 @@ A pixel-perfect implementation of the PopX mobile UI using **React + TypeScript 
 ## Live Demo
 
 Vercel Deployment  
-[https://your-vercel-link.vercel.app](https://popxeducase.vercel.app/)
+[View live](https://popxeducase.vercel.app/)
 
 ---
 
