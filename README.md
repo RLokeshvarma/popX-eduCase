@@ -1,4 +1,4 @@
-# PopX React Assignment
+# PopX-EduCase
 
 A pixel-perfect implementation of the PopX mobile UI using **React + TypeScript + Vite** based on the provided Adobe XD design.
 
