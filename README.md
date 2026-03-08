@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# PopX React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect implementation of the PopX mobile UI using **React + TypeScript + Vite** based on the provided Adobe XD design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+Vercel Deployment  
+[https://your-vercel-link.vercel.app](https://popxeducase.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** – Component-based UI development
+- **TypeScript** – Type safety and better code maintainability
+- **Vite** – Fast development server and optimized build
+- **CSS** – Custom styling to match the Adobe XD design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## React Libraries Used
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### React Router DOM
+Used for handling navigation between application pages.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Pages implemented using routing:
+- Landing Page
+- Login Page
+- Signup Page
+- Profile Page
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### React Icons
+Used to display the **camera icon on the profile avatar**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Features
+
+- Pixel-perfect UI based on Adobe XD design
+- Mobile app style layout centered on desktop
+- Full screen layout on mobile devices
+- Floating label form inputs
+- Required form validation with red asterisk
+- Fixed action buttons
+- Profile screen with avatar and camera icon
+- Scrollable mobile container layout
+
+---
+
+## Pages Implemented
+
+1. **Landing Page**
+2. **Login Page**
+3. **Signup Page**
+4. **Account Settings (Profile) Page**
+
+---
+
+## Run the Project Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/popx-react-assignment.git
